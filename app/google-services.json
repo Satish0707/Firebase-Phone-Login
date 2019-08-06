@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "449051424880",
+    "firebase_url": "https://fir-phonelogindemo.firebaseio.com",
+    "project_id": "fir-phonelogindemo",
+    "storage_bucket": "fir-phonelogindemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449051424880:android:0567dc0f33cd9d18",
+        "android_client_info": {
+          "package_name": "com.satish07.firebasephonelogindemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "449051424880-vsnvm570l0e1rd92cleqddcutcj1dbo5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.satish07.firebasephonelogindemo",
+            "certificate_hash": "8f1575ab727ad0b55cd515f6e0c96b8302c954ac"
+          }
+        },
+        {
+          "client_id": "449051424880-s2vsuthte9fftvbgm4e08i7rvvq643t7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVEZB_-7rxmU1oLgA7gPJYFJ0EdjFYBvo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "449051424880-s2vsuthte9fftvbgm4e08i7rvvq643t7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

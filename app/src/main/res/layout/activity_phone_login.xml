@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhoneLogin">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#fff">
+
+        <ImageView
+            android:contentDescription="@string/app_name"
+            android:layout_width="156dp"
+            android:layout_height="142dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/yb" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:contentDescription="Satish Kumar"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:layout_below="@id/relativeLayout"
+        android:layout_marginTop="-32dp"
+        android:background="@drawable/waves" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="May I ask you phone number?"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorPrimary" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <Spinner
+            android:id="@+id/spinnerCountries"
+            android:layout_width="60dp"
+            android:textAlignment="textEnd"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editTextMobile"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:digits="0123456789"
+            android:hint="Enter Your Phone Number"
+            android:maxLength="10" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonContinue"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle"
+        android:layout_below="@id/linearLayout"
+        android:text="Continue"
+        android:backgroundTint="@color/colorAccent"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:textSize="18sp"/>
+
+</RelativeLayout>

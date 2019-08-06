@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerifyPhoneActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="#fff">
+
+    <ImageView
+         android:layout_width="156dp"
+         android:layout_height="142dp"
+         android:layout_centerInParent="true"
+         android:background="@drawable/yb" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:layout_below="@id/relativeLayout"
+        android:layout_marginTop="-32dp"
+        android:background="@drawable/waves" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Wait for the code I sent to you..."
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <LinearLayout
+        android:id="@+id/progess1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:orientation="vertical" >
+           <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/textView"
+            android:textColor="@color/colorPrimary"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/timertv"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/editTextCode"
+            android:layout_gravity="center"
+            android:layout_marginStart="6dp"
+            android:focusable="true"
+            android:text="59"
+            android:layout_marginTop="-37dp"
+            android:textSize="18sp"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+    android:id="@+id/timer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/progess1"
+    android:orientation="horizontal"
+    android:layout_marginTop="20dp">
+
+    <EditText
+        android:id="@+id/editTextCode"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressbar"
+        android:layout_marginStart="80dp"
+        android:layout_alignTop="@+id/timer"
+        android:layout_alignBottom="@+id/timer"
+        android:digits="0123456789"
+        android:hint="Enter Code"
+        android:maxLength="6" />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/timer"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+    <Button
+        android:id="@+id/buttonSignIn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timer"
+        android:gravity="center"
+        android:background="@drawable/circle"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Sign In"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/resend"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle"
+        android:focusable="true"
+        android:layout_marginTop="-50dp"
+        android:gravity="center"
+        android:text="Resend"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    </LinearLayout>
+</RelativeLayout>

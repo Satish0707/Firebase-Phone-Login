@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4DB6AC</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#80CBC4</color>
+
+    <color name="screen1">#F44336</color>
+    <color name="screen2">#32CD32</color>
+    <color name="screen3">#9C27B0</color>
+    <color name="slider1">#f7451f</color>
+    <color name="slider2">#19993b</color>
+    <color name="slider3">#F8C471</color>
+    <color name="lightgray">#ededed</color>
+    <color name="white">#fff</color>
+
+    <color name="graylight">#D3D3D3</color>
+    <color name="endblue">#6786CE</color>
+
+
+    <array name="dot_on_page_active">
+        <item>#B71C1C</item>
+        <item>#8BC34A</item>
+        <item>#4A148C</item>
+
+    </array>
+
+    <array name="dot_on_page_not_active">
+        <item>#FF5252</item>
+        <item>#CCFF90</item>
+        <item>#E040FB</item>
+    </array>
+
+    <color name="greyPrimary">#DE000000</color>
+    <color name="greySecondary">#8B000000</color>
+    <color name="greyDisabled">#61000000</color>
+
+
+    <color name="grey">#bfbfbf</color>
+    <color name="white1">#fff</color>
+    <color name="black">#000000</color>
+    <color name="link_blue">#005ce6</color>
+
+
+</resources>

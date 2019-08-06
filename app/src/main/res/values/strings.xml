@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FirebasePhoneLoginDemo</string>
+    <string name="user_logout">Logout</string>
+    <string name="user_profile">Profile</string>
+
+
+</resources>
